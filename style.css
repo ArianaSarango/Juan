@@ -1,0 +1,37 @@
+body {
+    font-family:"MS Reference Sans Serif";
+    background-color: #f0f0f0;
+}
+
+.navbar {
+    background-color: #fb958a;
+
+}
+
+.header {
+    background-color: #dcdcdc;
+    padding: 60px 0;
+    color: #000000;
+}
+
+.productos .card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+.productos .card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.productos .card:hover {
+    transform: scale(1.05);
+}
+
+.contacto, .sobre-nosotros, .registrarse, .iniciar-sesion {
+    text-align: center;
+}
+
+.footer {
+    background-color: #fb958a;
+    color: rgb(0, 0, 0);
+}
